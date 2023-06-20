@@ -6,11 +6,13 @@ background-position: center top;
 background-attachment: fixed;
 }
 
+body{
 a:visited{
     color:aquamarine
 }
 a:hover {
     color:greenyellow
+}
 }
 
 body{
