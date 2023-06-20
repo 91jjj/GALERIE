@@ -1,0 +1,27 @@
+body{
+background-image: url("fashionshow2.jpg");
+background-color: black;
+background-size: cover;
+background-position: center top;
+background-attachment: fixed;
+}
+
+a:visited{
+    color:aquamarine
+}
+a:hover {
+    color:greenyellow
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+h1,h2,h3{
+    font-family: 'Inter', sans-serif;
+}
+}
+
+#beauty{
+    background-image: url(beauty.jpg);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brands</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+      </head>
+    <body>
+        <div class="container">
+            <div class="text-center">
+                <nav class="navbar navbar-dark bg-dark fixed-top" style="padding-top: 1px;">
+                    <div class="container-fluid">
+                      <a class="navbar-brand">GALERIE</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">GALERIE</h5>
+                          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="Trends.html">01 Trends</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="styleguide.html">02 Style Guide</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="brands.html">03 Brands</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="beauty.html">04 Beauty</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="events.html">05 Events</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+                  <section class="container overflow-hidden py-5" id="beauty">
+                    <div class="container">
+                      <div class="row p-4 align-items-center">
+                        <div class="col-lg-9 text-white">
+                          <h2 class="fw-bold mb-3">Beauty</h2>
+                          <p>2023년의 트렌디한 메이크업은 무엇일까요? 올해 메이크업트렌드 꿀팁 5가지를 시청해보세요!</p>
+                      </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#beautyModal">
+                      시청하기
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="beautyModal" tabindex="-1" aria-labelledby="beautyModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">beauty</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="ratio ratio-16x9">
+                              <iframe src="https://www.youtube.com/embed/OTt6ibOmKQ8">
+                                <title>Toutube Video</title>
+                              </iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </section>
+                  </body>
+</html>
